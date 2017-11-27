@@ -257,6 +257,57 @@ header {
     transform: scale(1.03);
 }
 
+.city-photo {
+    overflow: hidden;
+    margin-top: 40px;
+    margin: -7%;
+    margin-bottom: 10%;
+    background-color: #000;
+}
+
+.city-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.city-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.city-feature i {
+    display: inline-block;
+    width: 30px;
+    color: #e67e22;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.city-feature a:link,
+.city-feature a:active {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.35s, color 0.35s; 
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /* -------------------------------------------- */
 /* HOW IT WORKS */
 /* -------------------------------------------- */
