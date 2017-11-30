@@ -1,6 +1,6 @@
 # Omnifood Website (fictional company)
 
-Just beautiful & simple webpage with pure HTML5 & CSS3. Just for fun.
+Beautiful & simple webpage created with pure HTML5 & CSS3. Just for fun.
 Feel free to download and play with it.
 
 ## Screenshot:
